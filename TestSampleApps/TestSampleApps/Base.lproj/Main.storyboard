@@ -32,6 +32,9 @@
                             <constraint firstItem="1DL-m0-x87" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ytX-fi-X26"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="panView" destination="1DL-m0-x87" id="c7M-Sw-Aus"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
