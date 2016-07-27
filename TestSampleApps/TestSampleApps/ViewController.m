@@ -32,7 +32,6 @@
     CALayer *layer = self.panView.layer;
     layer.anchorPoint = point;
     layer.transform = transfrom;
-    NSLog(@"layer.transform");
 }
 
 - (void)didReceiveMemoryWarning {
